@@ -1,6 +1,8 @@
 const { register, getAllUsers, userById, getUserByEmail, profile } = require('./user.service');
+
 //Importing bcryptJs module to use password encryption
 const bcrypt = require('bcryptjs');
+
 //Importing database structure 
 const pool = require('../../config/database');
 const jwt = require('jsonwebtoken');
@@ -31,6 +33,7 @@ module.exports = {
                         .status(400)
                         .json({ msg: "An account with this email already exists!" });
                 } else {
+
                     //password encryption
                     const salt = bcrypt.genSaltSync();
                     req.body.password = bcrypt.hashSync(password, salt);
@@ -83,6 +86,7 @@ module.exports = {
         })
     },
     getUserById: (req, res) => {
+
         // const id = req.params.id;
         // console.log("id===>",id,"user===>",req.id);
         userById(req.id, (err, results) => {
@@ -100,6 +104,7 @@ module.exports = {
     },
     login: (req, res) => {
         const { email, password } = req.body;
+
         //validation
         if (!email || !password)
             return res

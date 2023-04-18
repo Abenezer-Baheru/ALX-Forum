@@ -1,6 +1,7 @@
 const pool = require('../../config/database');
 
 module.exports = {
+
     //data comes form the user controller
     register: (data, callback) => {
         pool.query(`INSERT INTO registration(user_name,user_email,user_password)VALUES(?,?,?)`,
@@ -16,6 +17,7 @@ module.exports = {
                 return callback(null, result);
             }
         );
+
         //query select user using email to get user_id
     },
     profile: (data, callback) => {

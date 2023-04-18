@@ -3,6 +3,7 @@ const { questionById, getAllQuestions, addQuestion } = require('./question.servi
 
 module.exports = {
     createQuestion: (req, res) => {
+
         //id is user id
         const { question, id } = req.body;
         req.body.postId = uuidv4();

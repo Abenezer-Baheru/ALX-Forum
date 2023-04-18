@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { UserContext } from "../../context/UserContext";
 import "./SignUp.css";
+
 //to import icons 
 import { Icon } from "react-icons-kit";
 import { eyeOff } from "react-icons-kit/feather/eyeOff";
@@ -39,6 +40,7 @@ const SignUp = () => {
 
   // to change type attribute from 'password' to 'text' and vice versa
   const [icon, setIcon] = useState(eyeOff);
+
   // to change the icon when clicked
   const HandleIconChange = () => {
     // event listen for Password function
