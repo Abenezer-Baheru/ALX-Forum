@@ -1,23 +1,17 @@
 # ALX-Forum
-The  project  is  built  using  MERN  stack.  The  information  on  the  website  will  be  stored  in  MySQLDB  and  its  features  include; Landing-page,  Login/Signup-page,  Questions  &  Answer  page.
+The  project  is  built  using  MERN  stack (MySQL, Express.js, React.js and  Node.js)
 ## Project Objectives 
 To create a place where ALX students and developer can ask programing related questions and get answers for their questions
 ## Project Deliverables
-● A completed Q&A platform that allows users to create an account and login
-to their account
-● A completed Q&A platform that allows account holders to post questions or
-answers and review questions or answers posted by other users
+* A completed Q&A platform that allows users to create an account and login to their account
++ A completed Q&A platform that allows account holders to post questions or answers and review questions or answers posted by other users
 ## Project Requirements
 ### Landing/Login/Sign up Page
-This is the login page with an option to
-create a new account (sign up option) for new users
-● If a user has an already existing account, they can just provide email and
-password to log in
-● If a user has no account, the user should have the option to create an
-account. To create an account, users will need to provide the following
-“required” information: “First Name”, “Last Name”, “Username”,
-“Email” and “Password”
-● Note: Email and username must be unique to each user. Meaning,
+This is the login page with an option to create a new account (sign up option) for new users
+- If a user has an already existing account, they can just provide email and password to log in
+- If a user has no account, the user should have the option to create an account. To create an account, users will need to provide the following
+“required” information: “First Name”, “Last Name”, “Username”, “Email” and “Password”
++ Note: Email and username must be unique to each user. Meaning,
 there should be no two users with similar email addresses or
 usernames
 ● Note: Passwords must include at least 8 characters. If user provides
