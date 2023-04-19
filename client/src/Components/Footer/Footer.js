@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="Useful-Link ">
             <a href="https://www.alxafrica.com/">How it works</a>
             <a href="https://www.alxafrica.com/privacy-policy/">Privacy policy</a>
-            <a href="https://www.evangadi.com/legal/terms/">ALX Blog</a>
+            <a href="https://www.alxafrica.com/our-blog/">ALX Blog</a>
           </div>
         </div>
         <div className="row">
