@@ -48,9 +48,13 @@ This is a page where a user can ask her/his question. This page should have/show
 - Users should have the option to go to the “home page” regardless of what page they are
 - Unless a user is new and clicked the option to create an account, account holder users should have the option to logout regardless of what page they are
 - The application needs to be responsive
-### Project Scope
+## Project Scope
 - In scope: Only registered users can post questions and answers
 - Out of scope: The Q&A page will not allow unregistered users to access the page. Meaning, users with no account will not be able to view and post questions or answers on the page
 - The Q&A page will not allow any user to edit or delete answers and
 questions posted by themselves or other users
 
+## Author
+Abenezer Baheru [Email:] (mailto:abeniug2001@gmail.com)
+Onolameh Daniel [Email:] (mailto:djake8991@gmail.com)
+Akande Abayomi Paul [Email:] (mailto:akandeabayomipaul@gmail.com)
