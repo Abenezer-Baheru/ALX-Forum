@@ -54,7 +54,7 @@ This is a page where a user can ask her/his question. This page should have/show
 - The Q&A page will not allow any user to edit or delete answers and
 questions posted by themselves or other users
 
-## Author
-Abenezer Baheru [Email:] (mailto:abeniug2001@gmail.com)
-Onolameh Daniel [Email:] (mailto:djake8991@gmail.com)
-Akande Abayomi Paul [Email:] (mailto:akandeabayomipaul@gmail.com)
+## AUTHORS
+- Abenezer Baheru  (abeniug2001@gmail.com)
+- Onolameh Daniel (djake8991@gmail.com)
+- Akande Abayomi Paul (akandeabayomipaul@gmail.com)
