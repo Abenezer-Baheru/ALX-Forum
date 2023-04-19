@@ -50,8 +50,9 @@ This is a page where a user can ask her/his question. This page should have/show
 - The application needs to be responsive
 ## Project Scope
 - In scope: Only registered users can post questions and answers
-- Out of scope: The Q&A page will not allow unregistered users to access the page. Meaning, users with no account will not be able to view and post questions or answers on the page
-- The Q&A page will not allow any user to edit or delete answers and
+- Out of scope: 
+-- The Q&A page will not allow unregistered users to access the page. Meaning, users with no account will not be able to view and post questions or answers on the page
+--The Q&A page will not allow any user to edit or delete answers and
 questions posted by themselves or other users
 
 ## AUTHORS
