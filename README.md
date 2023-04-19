@@ -1,6 +1,6 @@
 # ALX-Forum
 The  project  is  built  using  MERN  stack.  The  information  on  the  website  will  be  stored  in  MySQLDB  and  its  features  include; Landing-page,  Login/Signup-page,  Questions  &  Answer  page.
-## Project Objectives: To create a place where Evangadi students can ask programing related questions and get answers for their questions
+## Project Objectives: To create a place where ALX students and developer can ask programing related questions and get answers for their questions
 Project Deliverables:
 ● A completed Q&A platform that allows users to create an account and login
 to their account
@@ -83,9 +83,4 @@ Meaning, users with no account will not be able to view and post
 questions or answers on the page
 ● The Q&A page will not allow any user to edit or delete answers and
 questions posted by themselves or other users
-Project Relational Database Schema:
-● Below is the link to database schema for the project and tables to be added
-● https://docs.google.com/spreadsheets/d/1efq8HX1If4nVSCFuF3BRYWF
-A2aVvl3to0eZ3bKtEyys/edit#gid=0
-Project End Date: Final version of the project should be completed and deployed
-from the project given date within 15 Days before your presentation!
+
