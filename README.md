@@ -1,13 +1,15 @@
 # ALX-Forum
 The  project  is  built  using  MERN  stack.  The  information  on  the  website  will  be  stored  in  MySQLDB  and  its  features  include; Landing-page,  Login/Signup-page,  Questions  &  Answer  page.
-## Project Objectives: To create a place where ALX students and developer can ask programing related questions and get answers for their questions
-Project Deliverables:
+## Project Objectives 
+To create a place where ALX students and developer can ask programing related questions and get answers for their questions
+## Project Deliverables
 ● A completed Q&A platform that allows users to create an account and login
 to their account
 ● A completed Q&A platform that allows account holders to post questions or
 answers and review questions or answers posted by other users
-Project Requirements:
-● Landing/Login/Sign up Page: This is the login page with an option to
+## Project Requirements
+### Landing/Login/Sign up Page
+This is the login page with an option to
 create a new account (sign up option) for new users
 ● If a user has an already existing account, they can just provide email and
 password to log in
@@ -21,7 +23,8 @@ usernames
 ● Note: Passwords must include at least 8 characters. If user provides
 less than 8 characters when creating a password, an alert message
 should show to notify user about the error
-● Questions Page: Upon successful login, the user will be taken to the
+### Questions Page
+Upon successful login, the user will be taken to the
 “Questions Page”. The “Questions page” should show:
 ● A welcome message followed by the first name of the user. Example:
 “Welcome: Abebe”
@@ -38,7 +41,8 @@ username of the user with each “question’s title”
 to show in the list is the newest question asked by a user
 ● When the “question’s title” is clicked, user will be taken to the “Question
 and Answers Page”
-● Question and Answers Page: When a specific “question title” is clicked,
+### Question and Answers Page
+When a specific “question title” is clicked,
 the user will be taken to the “Question and Answers Page”. This page will
 show:
 ● The “question title”
@@ -52,7 +56,8 @@ show
 ● When users post their answers (clicking a post button), they will remain
 on the “Question and Answers Page”, but the question they just posted
 should display on this page
-● Ask a Question Page: This is a page where a user can ask her/his
+### Ask a Question Page
+This is a page where a user can ask her/his
 question. This page should have/show:
 ● List of instructions a user must follow to write a good question. Here is
 what the instruction should say:
@@ -68,14 +73,14 @@ what the instruction should say:
 redirected to the “home page”. The “home page” should show title of
 the user’s question on top of the rest of previously added questions
 titles
-● All pages:
+### All pages
 ● Users should have the option to go to the “home page” regardless of what
 page they are
 ● Unless a user is new and clicked the option to create an account, account
 holder users should have the option to logout regardless of what page
 they are
 ● The application needs to be responsive
-Project Scope:
+### Project Scope
 ● In scope: Only registered users can post questions and answers
 ● Out of scope:
 ● The Q&A page will not allow unregistered users to access the page.
